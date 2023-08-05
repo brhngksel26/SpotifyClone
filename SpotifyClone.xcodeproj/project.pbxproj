@@ -29,6 +29,7 @@
 		72166F932A7DB1A300036C65 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166F922A7DB1A300036C65 /* AudioTrack.swift */; };
 		72166F952A7DB1CC00036C65 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166F942A7DB1CC00036C65 /* Artist.swift */; };
 		72166F972A7DB1D600036C65 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166F962A7DB1D600036C65 /* UserProfile.swift */; };
+		72166F992A7DC86600036C65 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72166F982A7DC86600036C65 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		72166F922A7DB1A300036C65 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		72166F942A7DB1CC00036C65 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		72166F962A7DB1D600036C65 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		72166F982A7DC86600036C65 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				72166F622A7DAD2200036C65 /* Assets.xcassets */,
 				72166F592A7DAD2100036C65 /* AppDelegate.swift */,
 				72166F5B2A7DAD2100036C65 /* SceneDelegate.swift */,
+				72166F982A7DC86600036C65 /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				72166F8D2A7DB17200036C65 /* ApiCaller.swift in Sources */,
 				72166F832A7DB12500036C65 /* ProfileViewController.swift in Sources */,
 				72166F8F2A7DB18100036C65 /* HapticsManager.swift in Sources */,
+				72166F992A7DC86600036C65 /* Extension.swift in Sources */,
 				72166F742A7DB05000036C65 /* TabBarViewController.swift in Sources */,
 				72166F5E2A7DAD2100036C65 /* HomeViewController.swift in Sources */,
 				72166F7D2A7DB0F000036C65 /* AuthViewController.swift in Sources */,
