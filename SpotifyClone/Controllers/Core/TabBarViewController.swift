@@ -11,6 +11,7 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemBackground
 
         let homeViewController = HomeViewController()
         let searchViewController = SearchViewController()
@@ -28,6 +29,10 @@ class TabBarViewController: UITabBarController {
         let searchNavigation = UINavigationController(rootViewController: searchViewController)
         let libraryNavigation = UINavigationController(rootViewController: libraryViewController)
         
+        homeNavigation.navigationBar.tintColor = .label
+        searchNavigation.navigationBar.tintColor = .label
+        libraryNavigation.navigationBar.tintColor = .label
+        
         homeNavigation.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 1)
         searchNavigation.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "magnifyingglass"), tag: 1)
         libraryNavigation.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "music.note.list"), tag: 1)
@@ -40,15 +45,5 @@ class TabBarViewController: UITabBarController {
         
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
